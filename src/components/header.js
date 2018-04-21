@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styles from "./style.module.css";
 
 const Header = ({ siteTitle }) => (
   <div
@@ -14,7 +13,7 @@ const Header = ({ siteTitle }) => (
         maxWidth: 960,
       }}
     >
-      <h1 className={styles.vaporwave}>
+      <h1>
         <Link
           to="/"
           style={{
@@ -25,33 +24,30 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-	  <h3 style={{color:'white'}} className={styles.vaporwave}>
-	    ｍａｘ＠ｂｏｎｎｅｆ．ｉｎ　ツイス
-      </h3>  
 		<div>
           <table cellpadding="9">
             <tbody>
               <tr>
 				<td>
 				  <Link 
-					to="/" 
+					to="/blog/"
 			       	style={{
             		  color: 'white',
                       textDecoration: 'none',
                     }}
  				  >
-					ＢＬＯＧ
+					Blog
 				  </Link>
 				</td>
 				<td>
       		      <Link 
-					to="/" 
+					to="/"
 			       	style={{
             		  color: 'white',
                       textDecoration: 'none',
                     }}
  				  >
-				    ＣＶ
+				    CV
 				  </Link>
 				</td>
 	     		<td>
@@ -62,7 +58,7 @@ const Header = ({ siteTitle }) => (
                       textDecoration: 'none',
                     }}
  				  >
-				    ＱＵＯＴＥＳ 
+				    About
 				  </Link>
 				</td>
               </tr>
