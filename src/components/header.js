@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => (
 				</td>
 				<td>
       		      <Link 
-					to="/"
+					to="/cv"
 			       	style={{
             		  color: 'white',
                       textDecoration: 'none',
@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => (
 				</td>
 	     		<td>
 				  <Link 
-					to="/" 
+					to="/about"
 			       	style={{
             		  color: 'white',
                       textDecoration: 'none',
